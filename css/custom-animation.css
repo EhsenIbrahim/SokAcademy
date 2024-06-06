@@ -1,0 +1,336 @@
+header .row.reveal_visible {
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+}
+
+section#HomeSlider .owl-item.active h1 {
+    animation-duration: .8s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    animation-delay: 0.3s;
+}
+
+section#HomeSlider .owl-item.active p {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+    animation-delay: 0.5s;
+}
+
+section#HomeSlider .owl-item.active a.BtnMain {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+    animation-delay: 1s;
+}
+
+section#AboutUsSec .Img1Col.reveal_visible {
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+}
+
+.reveal {
+    opacity: 0 !important;
+    transition: .5s ease;
+}
+
+.reveal_visible {
+    opacity: 1 !important;
+    animation-fill-mode: both; 
+}
+
+section#AboutUsSec .UpperHead.reveal_visible {
+    animation-name: fadeInDown;
+    animation-duration: .8s;
+    animation-delay: .2s;
+}
+
+section#AboutUsSec .ContentCol h2.reveal_visible {
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+p.reveal_visible {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+a.BtnMain.reveal_visible {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+}
+
+section#AboutUsSec .Img2Col .CircleButton.reveal_visible {
+    animation-name: zoomIn;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+section#AboutUsSec .Img2Col .AboutImgMain.reveal_visible {
+    animation-name: slideInUp;
+    animation-duration: .8s;
+    animation-delay: 0.3s;
+}
+
+section#AboutUsSec .ContentMain p.reveal_visible {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+}
+
+.HeaderMain .UpperHead.reveal_visible {
+    animation-name: fadeInUp;
+    animation-duration: .5s;
+    animation-delay: 0.3s;
+}
+
+.HeaderMain h2.reveal_visible {
+    animation-name: fadeInUp;
+    animation-duration: .5s;
+    animation-delay: 0.5s;
+}
+
+.HeaderMain p.reveal_visible {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: .6s;
+}
+
+section#OurCoursesSec .CoursesCol.reveal_visible {
+    animation-name: slideInUp;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+}
+
+.HeaderLeft.reveal_visible {
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+}
+
+section#CounterSec .CounterRow .CouterDiv.reveal_visible {
+    animation-name: slideInUp;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+}
+
+section#TestimonialSec .tab-content .active .StartRating {
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+section#TestimonialSec .tab-content .active .LeftQuote {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+section#TestimonialSec .tab-content .active .RightQuote  {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+section#TestimonialSec .tab-content .active .DescriptionRview p {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+}
+
+section#TestimonialSec .tab-content .active .TitleMain h2 {
+    animation-name: slideInUp;
+    animation-duration: 1s;
+}
+
+section#TestimonialSec .tab-content .active .TitleMain p {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+}
+
+section#GallerSec a.reveal_visible {
+    animation-name: zoomIn;
+    animation-duration: 1s;
+    animation-delay: .5s; 
+}
+
+section#GallerSec .ImgCenter .reveal_visible {
+    animation-name: zoomIn;
+    animation-duration: 1s;
+    animation-delay: .5s; 
+}
+
+footer .row .reveal_visible {
+    animation-name: slideInUp;
+    animation-duration: 1.5s;
+    animation-delay: 0s; 
+}
+
+.CopyrightRow .reveal_visible {
+    animation-name: slideInUp;
+    animation-duration: 1.5s;
+    animation-delay: 0s; 
+}
+
+div#BannerMain h1 span {
+    animation-name: header-ani;
+    display: inline-block !important;
+    transform: rotateX(90deg);
+    animation-fill-mode: both;
+    animation-duration: 1s;
+}
+
+@keyframes header-ani {
+    from {
+        transform: rotateX(90deg);
+    }
+    
+    to {
+        transform: rotateX(0deg);
+    }
+}
+
+div#BannerMain h1 span.\30 1 {
+    animation-delay: 1s;
+}
+
+div#BannerMain h1  span.\30 2 {
+    animation-delay: 1.5s;
+}
+
+div#BannerMain h1  span.\30 3 {
+    animation-delay: 2s;
+}
+
+section#CoachesSec .row::after,
+section#CoachesSec .row::before {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 20px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+section#CoachesSec .RightBefore .col-md-5.reveal_visible {
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    animation-delay: 0s; 
+}
+
+section#CoachesSec .LeftBefore .col-md-5.reveal_visible {
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+    animation-delay: 0s; 
+}
+
+section#CoachesSec .TitleDiv.reveal_visible h2 {
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    animation-delay: 0s; 
+}
+
+section#CoachesSec .ContentMain.reveal_visible p, 
+section#CoachesSec .ContentMain.reveal_visible li{
+    animation-name: zoomIn;
+    animation-duration: 1.5s;
+    animation-delay: 0s; 
+}
+
+@keyframes shrink {
+    0% {
+      background-size: 120% 120%;
+    }
+    100% {
+      background-size: 100% 100%;
+    }
+}
+
+.ShrinkBg.reveal_visible {
+    animation: shrink 8s ease-in-out;
+}
+  
+section#PackagesSec .row.reveal_visible {
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    animation-delay: 0s; 
+}
+
+.GalleryImages .reveal_visible {
+    animation-name: slideInUp;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+section#Session-sec .HeaderMain h2.reveal_visible {
+    animation-name: fadeInDown;
+    animation-duration: 1s !important;
+}
+
+section#Session-sec .LocationCol .Map-Div.reveal_visible {
+    animation-name: zoomIn;
+    animation-duration: 1.5s;
+    animation-delay: 0s; 
+}
+
+.ContentMain.reveal_visible h2 {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: 0s; 
+}
+
+.ContentMain p.reveal_visible {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: 0.5s; 
+}
+
+section#Holiday-Camps-Sec .Holiday-Camps h2.reveal_visible {
+    animation-name: slideInDown;
+    animation-duration: .6s;
+    animation-delay: 0.5s;
+}
+
+section#Holiday-Camps-Sec  .Cost.reveal_visible {
+    padding-right: 150px !important;
+}
+
+section#Holiday-Camps-Sec .Timing.reveal_visible {
+    padding-right: 420px !important;
+}
+
+section#Holiday-Camps-Sec .reveal {
+    opacity: 1 !important;
+}
+
+section#ContactSec .LeftHeader.reveal_visible {
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    animation-delay: 0s; 
+}
+
+section#ContactSec .Contact-Details.reveal_visible {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: 0s; 
+}
+
+.Map-Location.reveal_visible {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: 0s; 
+}
+
+section#Faq-Sec .row.faq-row.reveal_visible {
+    animation-name: slideInUp;
+    animation-duration: .6s;
+    animation-delay: 0.5s;
+}

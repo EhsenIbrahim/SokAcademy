@@ -1,0 +1,2096 @@
+/* Start Fonts */
+
+@font-face {
+  font-family: Jost;
+  src: url(../fonts/Jost-Thin.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Jost;
+  src: url(../fonts/Jost-Light.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Jost;
+  src: url(../fonts/Jost-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Jost;
+  src: url(../fonts/Jost-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Jost;
+  src: url(../fonts/Jost-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Jost;
+  src: url(../fonts/Jost-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: The Bold;
+  src: url(../fonts/The-Bold.otf);
+  font-weight: 800;
+}
+
+/* End Fonts */
+
+.row {
+  margin: 0 !important;
+}
+
+.container {
+  padding: 0 0 !important;
+  max-width: 1600px !important;
+}
+
+.container-fluid {
+  padding: 0 0 !important;
+}
+
+/* Start Header CSS */
+
+header .LogoCol img {
+  width: 150px !important;
+  position: relative !important;
+  bottom: -20px !important;
+}
+
+header {
+  background: rgb(255 255 255);
+  background: linear-gradient(0deg, rgba(123, 137, 128, 0) 0%, rgb(0 0 0 / 100%) 60%);
+  padding: 10px 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999 !important;
+}
+
+header ul.main-menu {
+  margin: 0 !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  gap: 20px !important;
+  padding: 0 !important;
+}
+
+header ul.main-menu li {
+  list-style-type: none !important;
+  font-family: Jost !important;
+  font-size: 18px !important;
+  font-weight: 200 !important;
+  text-transform: uppercase !important;
+  position: relative !important;
+}
+
+header .row {
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+a {
+  color: #e02b20 !important;
+  text-decoration: none !important;
+  transition: .5s ease;
+}
+   
+header .LogoCol {
+  display: flex;
+  justify-content: flex-start !important;
+  padding: 0 !important;
+}
+
+header .RightCol {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px !important;
+  padding: 0;
+}
+
+.BtnMain {
+  background: #e02b20 !important;
+  color: #fff !important;
+  padding: 20px 40px !important;
+  font-family: 'Jost' !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  text-transform: uppercase !important;
+  transition: .5s ease !important;
+  display: block !important;
+  width: fit-content !important;
+}
+
+header ul.main-menu li a {
+  color: #fff !important;
+  position: relative !important;
+}
+
+.BtnMain:hover {
+  background: #fff !important;
+  color: #000 !important;
+  /* transform: scale(1.04) !important; */
+}
+
+header .RightCol a {
+  display: flex !important;
+  align-items: center !important;
+}
+
+header .RightCol a .IconMain {
+  font-size: 20px !important;
+  color: #fff !important;
+  transition: .3s ease !important;
+}
+
+header .AutoWidth {
+  padding: 0 !important;
+}
+
+header .RightCol a .IconMain:hover {
+  color: #e02b20 !important;
+}
+
+header ul.main-menu a:hover {
+  color: #e02b20 !important;
+}
+
+header .MenuCol {
+  padding: 0 0 !important;
+}
+
+header .RightCol a i.fa-regular.fa-user {
+  font-size: 0 !important;
+  background: url(../images/account.png);
+  height: 28px !important;
+  width: 25px !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  filter: brightness(100);
+}
+
+header .RightCol a:hover i.fa-regular.fa-user {
+  filter: none !important;
+  transition: 0.5s !important;
+}
+
+::selection {
+  background: #e02b20 !important;
+  color: #fff !important;
+}
+
+img::selection {
+  background: #ffffff00 !important;
+}
+
+header ul.main-menu li.currentPage::before {
+  content: "|";
+  position: absolute !important;
+  color: #e02b20 !important;
+  left: 45% !important;
+  top: -42px !important;
+  font-size: 30px !important;
+  font-weight: 400 !important;
+}
+
+a:hover {
+  color: #fff !important;
+}
+
+/* End Header CSS */
+
+/* Start Home Slider CSS */
+
+section#HomeSlider .HomeBanner1 {
+  background-image: url(../images/SliderImg1.png) !important;
+}
+
+section#HomeSlider .HomeBanner2 {
+  background-image: url(../images/SliderImg2.png) !important;
+}
+
+section#HomeSlider .SliderMain {
+  height: 100vh !important;
+  object-fit: cover !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-position: center center !important;
+}
+
+section#HomeSlider .ContentMain {
+  text-align: center !important;
+  padding-top: 200px;
+  filter: drop-shadow(0px 0px 50px #000);
+  z-index: 9 !important;
+}
+
+h1, h2{
+  font-family: The Bold !important;
+  color: #fff !important;
+  font-weight: 800 !important;
+  font-size: 70px !important;
+  line-height: 70px !important;
+}
+
+section#HomeSlider h1 {
+  font-size: 110px !important;
+  line-height: 110px !important;
+  color: #fff !important;
+  font-weight: 800 !important;
+  font-family: 'The Bold' !important;
+  text-transform: uppercase !important;
+}
+
+p {
+  font-family: 'Jost' !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+}
+
+section#HomeSlider p {
+  margin: 20px 0 40px 0 !important;
+  text-shadow: 0 0 10px #000 !important;
+  font-size: 20px !important;
+}
+
+section#HomeSlider .owl-nav {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0px !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  gap: 1px !important;
+  z-index: 0 !important;
+}
+
+section#HomeSlider {
+  position: relative !important;
+}
+
+section#HomeSlider .owl-nav button {
+  background: #ffffff !important;
+  height: 75px !important;
+  width: 75px !important;
+  transition: .5s ease !important;
+}
+
+section#HomeSlider .owl-nav span {
+  font-size: 35px !important;
+  color: #000 !important;
+  font-family: 'FontAwesome' !important;
+  font-weight: 400 !important;
+  transition: .5s ease !important;
+}
+
+section#HomeSlider .owl-nav button.owl-prev span {
+  color: #000 !important;
+}
+
+section#HomeSlider  .BtnMain {
+  margin: 0 auto !important;
+}
+
+section#HomeSlider .owl-nav button:hover {
+  background: #e02b20 !important;
+}
+
+section#HomeSlider .owl-nav button:hover span {
+  color: #fff !important;
+}
+
+.MouseScroll .MouseWrap {
+  height: 50px !important;
+  width: 50px !important;
+  background-image: url(../images/Scroll-Mouse.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.MouseScroll {
+  background: #e02b20;
+  position: absolute;
+  bottom: 40px !important;
+  z-index: 9;
+  border-radius: 30px !important;
+  padding: 10px 0 !important;
+  left: 120px !important;
+  transition: .5s ease-in-out;
+}
+
+.MouseScroll:hover {
+  transform: translate(0px, 10px);
+}
+
+section#HomeSlider .BtnMain:hover {
+  transform: scale(1) !important;
+}
+
+/* End Home Slider CSS  */
+
+/* Start About Sec CSS */
+
+section#AboutUsSec img {
+  width: 100% !important;
+}
+
+section#AboutUsSec {
+  background: #0a0a09 !important;
+  padding: 100px 0 !important;
+  transition: .5s ease-in-out !important;
+}
+
+.UpperHead {
+  font-family: 'Jost' !important;
+  font-weight: 450 !important;
+  color: #e02b20 !important;
+  text-transform: uppercase;
+  margin: 0 !important;
+}
+
+section#AboutUsSec .ContentCol h2 {
+  margin-bottom: 20px !important;
+}
+
+section#AboutUsSec .CircleButton {
+  width: 190px !important;
+  background: #e02b20 !important;
+  padding: 10px !important;
+  border-radius: 50% !important;
+  position: relative !important;
+  border: 5px solid #fff !important;
+  z-index: 9;
+  margin: 0 auto !important;
+}
+
+section#AboutUsSec .arrow-div {
+  position: absolute;
+  inset: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: -1 !important;
+}
+
+section#AboutUsSec .arrow-div::before {
+  content: "";
+  background: #0a0a09 !important;
+  height: 120px !important;
+  width: 120px !important;
+  position: absolute !important;
+  z-index: -1 !important;
+  border-radius: 50% !important;
+  box-shadow: 0 0 10px #ffffffc4 !important;
+}
+
+section#AboutUsSec .arrow-div img {
+  width: 50px !important;
+  filter: drop-shadow(0px 0px 2px #000) !important;
+  transition: .5s ease-in-out !important;
+}
+
+section#AboutUsSec .circle-txt img {
+  animation: rotate-center 20s linear infinite both;
+}
+
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+section#AboutUsSec .CircleButton:hover img {
+  transform: rotate(45deg);
+}
+
+section#AboutUsSec .circle-txt img:hover {
+  animation-play-state: paused;
+}
+
+section#AboutUsSec  img.AboutImgMain {
+  margin-top: 40px !important;
+}
+
+/* End About Sec CSS */ 
+
+/* Start Courses CSS */
+
+section#OurCoursesSec {
+  background: #0a0a09 !important;
+  padding: 50px 0 100px 0 !important;
+}
+
+.HeaderMain {
+  text-align: center !important;
+}
+
+.HeaderMain p {
+  width: 50% !important;
+  margin: 0 auto 30px auto !important;
+}
+
+section#OurCoursesSec .CoursesCol {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+section#OurCoursesSec .CoursesCol .ImgMain img {
+  object-fit: cover !important;
+  width: 100% !important;
+  transition: .5s ease-in-out !important;
+}
+
+section#OurCoursesSec .CoursesCol .ContentMain h2 {
+  font-size: 45px !important;
+  line-height: 45px !important;
+  text-align: center !important;
+}
+
+section#OurCoursesSec .CoursesCol .ContentMain {
+  position: absolute !important;
+  bottom: 0px !important;
+  left: 0 !important;
+  right: 0 !important;
+  transition: .5s ease-in-out !important;
+  opacity: 0 !important;
+  transform: rotateX(65deg) !important;
+  z-index: 1 !important;
+}
+
+section#OurCoursesSec .BtnMain {
+  margin: 30px auto 0 auto !important;
+}
+
+section#OurCoursesSec .CoursesCol::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background: linear-gradient(180deg, rgba(123, 137, 128, 0) 40%, rgba(0, 0, 0, 1) 100%);
+  opacity: 0 !important;
+  transition: .5s ease-in-out !important;
+  z-index: 1 !important;
+}
+
+section#OurCoursesSec .CoursesCol:hover::before {
+  opacity: 1 !important;
+}
+
+section#OurCoursesSec .CoursesCol:hover .ContentMain {
+  bottom: 40px !important;
+  transform: rotateX(0deg) !important;
+  opacity: 1 !important;
+}
+
+section#OurCoursesSec .col-md-3 {
+  padding: 0 !important;
+}
+
+section#OurCoursesSec .CoursesCol:hover img {
+  transform: scale(1.05) !important;
+}
+
+/* End Courses CSS */
+
+/* Start Our Packages CSS */
+
+section#OurPackageSec {
+  background-image: url(../images/OurPackagesBanner.png);
+  background-size: 100% 100% !important;
+  /* background-repeat: no-repeat; */
+  padding: 180px 0;
+  background-position: right !important;
+}
+
+.HeaderLeft p {
+  width: 50% !important;
+  font-weight: 300 !important;
+  margin: 20px 0 !important;
+}
+
+section#PackagesSec .PrincingDiv:hover {
+  transform: scale(1.05) !important;
+}
+
+section#PackagesSec .PrincingDiv:hover .Title {
+  top: 15px !important;
+}
+
+section#PackagesSec .PrincingDiv:hover .Pricing-Txt .Price {
+  text-shadow: 1px 0px 3px #e02b20;
+}
+
+/* End Our Packages CSS */
+
+/* Start Counter CSS */
+
+section#CounterSec {
+  background-image: url(../images/CounterBanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center !important;
+  padding: 100px 0 190px 0 !important;
+  background-attachment: fixed !important;
+}
+
+section#CounterSec .CounterRow .CouterDiv {
+  background: #fff !important;
+  height: 300px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+section#CounterSec .CounterRow .col-md-3 {
+  padding: 0 20px !important;
+}
+
+section#CounterSec .CounterRow .CouterDiv .CounterTitle {
+  color: #000 !important;
+  font-size: 35px !important;
+  line-height: 35px !important;
+  text-align: center !important;
+}
+
+section#CounterSec .CounterRow {
+  padding: 0 50px !important;
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+section#CounterSec .CounterRow .CouterDiv .counter {
+  font-size: 100px !important;
+  font-family: 'Jost' !important;
+  font-weight: 700 !important;
+  color: #e02b20 !important;
+  line-height: 120px !important;
+}
+
+section#CounterSec .container {
+  position: relative !important;
+}
+
+/* End Counter CSS */
+
+/* Start Testimonials CSS */
+
+section#TestimonialSec {
+  background-image: url(../images/TestimonialBanner.png) !important;
+  background-color: #0a0a09 !important;
+  padding: 200px 0px 130px 0 !important;
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat !important;
+}
+
+section#TestimonialSec ul.nav.nav-tabs {
+  width: 65% !important;
+  margin: 0 auto !important;
+  padding: 0 40px;
+  margin-top: 20px !important;
+}
+
+section#TestimonialSec .owl-nav button.owl-prev {
+  left: -80px !important;
+}
+
+section#TestimonialSec .owl-nav button.owl-next {
+  right: -80px !important;
+}
+
+section#TestimonialSec .owl-nav button {
+  background: transparent !important;
+  border: 2px solid #b5b5b5 !important;
+  color: #b5b5b5 !important;
+  height: 50px !important;
+  width: 50px !important;
+  transition: .5s ease !important;
+  font-size: 50px !important;
+  position: absolute;
+  top: 25% !important;
+  border-radius: 50% !important;
+}
+
+section#TestimonialSec .owl-nav button:hover {
+  border-color: #e02b20 !important;
+}
+
+section#TestimonialSec .owl-nav button:hover span {
+  color: #e02b20 !important;
+}
+
+section#TestimonialSec .owl-nav button span {
+  height: 100% !important;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  top: -7px !important;
+  position: relative !important;
+  transition: .5s ease !important;
+}
+
+section#TestimonialSec .nav-tabs {
+  border-bottom: none;
+}
+
+section#TestimonialSec .owl-dots {
+  display: none;
+}
+
+section#TestimonialSec .item {
+  display: flex;
+  justify-content: center;
+}
+
+section#TestimonialSec .item li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px !important;
+  width: 120px !important;
+}
+
+section#TestimonialSec .tab-content {
+  background-color: #fff;
+  font-size: 17px;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 10px;
+  width: 70% !important;
+  margin: 30px auto 0 auto !important;
+  box-shadow: inset 0 0 6px #000 !important;
+  padding: 50px 120px 40px 110px !important;
+  position: relative;
+}
+
+section#TestimonialSec .item li img {
+  width: 100% !important;
+  border-radius: 50% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border: 4px solid #fff0 !important;
+}
+
+section#TestimonialSec .owl-carousel .owl-item a.active.show img {
+  border: 4px solid #e02b20 !important;
+}
+
+section#TestimonialSec  .DescriptionRview p,
+section#TestimonialSec  .DescriptionRview h2 {
+  color: #000 !important;
+}
+
+section#TestimonialSec .StartRating span {
+  color: #f3b945 !important;
+  font-size: 20px !important;
+}
+
+section#TestimonialSec .TitleMain h2 {
+  font-size: 30px !important;
+  line-height: 30px !important;
+}
+
+section#TestimonialSec .TitleMain  p.SubTitle {
+  font-size: 18px !important;
+}
+
+section#TestimonialSec .LeftQuote {
+  text-align: left;
+}
+
+section#TestimonialSec .LeftQuote i, 
+section#TestimonialSec .RightQuote i {
+  font-size: 50px !important;
+  color: #e02b20 !important;
+  position: absolute !important;
+}
+
+section#TestimonialSec .LeftQuote i {
+  transform: rotateY(174deg);
+  left: -40px;
+  top: -40px;
+}
+
+section#TestimonialSec .RightQuote i {
+  right: 0px !important;
+  bottom: -20px !important;
+}
+
+section#TestimonialSec .StartRating {
+  margin-bottom: 10px !important;
+}
+
+section#TestimonialSec .LeftQuote {
+  position: relative !important;
+}
+
+section#TestimonialSec .RightQuote {
+  position: relative;
+}
+
+/* End Testimonial CSS */
+
+/* Start Gallery CSS */
+
+section#GallerSec {
+  background-image: url(../images/GalleryBanner.png);
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0 0 0 !important;
+}
+
+section#GallerSec .ImgRight {
+  text-align: right !important;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+section#GallerSec .Imgleft {
+  text-align: left !important;
+  position: relative !important;
+  top: -120px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+section#GallerSec .ImgCenter {
+  text-align: center !important;
+}
+
+section#GallerSec .row {
+  align-items: center !important;
+}
+
+section#GallerSec .InnerRow {
+  display: flex;
+  align-items: start !important;
+  gap: 30px !important;
+}
+
+section#GallerSec .HeaderLeft {
+  display: inline-block !important;
+  position: relative !important;
+  bottom: -50px !important;
+  left: 60px !important;
+}
+
+/* End Gallery CSS */
+
+/* Start Footer CSS */
+
+footer {
+  background-color: #0a0a09 !important;
+}
+
+.FooterOuter .TitleMain h2 {
+  font-size: 40px !important;
+  line-height: 40px !important;
+  margin-top: 70px !important;
+}
+
+.FooterOuter .FooterLinks {
+  margin-top: 60px !important;
+}
+
+.FooterOuter .FooterLinks ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.FooterOuter .FooterLinks ul li {
+  list-style: none;
+  width: fit-content;
+  margin: 10px 0 !important;
+}
+
+.FooterOuter .FooterLinks ul li a {
+  display: flex;
+  align-items: baseline;
+}
+
+.FooterOuter .SocialIcons ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  gap: 20px !important;
+}
+
+.FooterOuter .SocialIcons ul li {
+  list-style: none !important;
+  height: 65px;
+  width: 65px;
+  background: #1c1c1b !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  transition: .5s ease !important;
+}
+
+.FooterOuter .SocialIcons ul li i {
+  font-size: 25px !important;
+  color: #fff !important;
+  transition: .5s ease !important;
+}
+
+.FooterOuter .SocialIcons ul li:hover {
+  background: #e02b1a !important;
+}
+
+.FooterOuter .SocialIcons ul li:hover i {
+  transform: scale(1.4) !important;
+}
+
+.FooterOuter {
+  padding: 100px 0 0px 0 !important;
+  overflow: hidden !important;
+}
+
+.FooterOuter .LogoDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px !important;
+}
+
+.FooterOuter .ColMain1 {
+  width: 30% !important;
+}
+
+.FooterOuter .ColMain2, .FooterOuter .ColMain3, .FooterOuter .ColMain4 {
+  width: 23% !important;
+  padding: 0 0 !important;
+  float: right !important;
+}
+
+.FooterOuter .row {
+  justify-content: space-between !important;
+  padding-bottom: 40px !important;
+}
+
+.FooterOuter .LogoDiv .ContentMain p {
+  width: 80% !important;
+}
+
+.FooterOuter .FooterLinks ul li a {
+  font-family: 'Jost' !important;
+  font-size: 18px;
+  color: #fff !important;
+  gap: 10px !important;
+}
+
+.FooterOuter .FooterLinks ul li  i {
+  background: #e02919 !important;
+  padding: 12px 12px;
+  border-radius: 20px !important;
+  font-size: 18px !important;
+  transition: .5s ease !important;
+}
+
+.FooterOuter .CopyrightRow p {
+  margin: 0 !important;
+  text-align: center;
+}
+
+.FooterOuter .CopyrightRow {
+  padding: 20px 0 20px 0 !important;
+  border-top: 1px solid red;
+}
+
+.FooterOuter .LogoDiv .logoImg img {
+  width: 125px !important;
+}
+
+.FooterOuter .CopyrightRow a {
+  text-transform: uppercase !important;
+}
+
+.FooterOuter .CopyrightRow p {
+  font-size: 17px !important;
+}
+
+.FooterOuter .FooterLinks ul li a:hover {
+  color: #e02b20 !important;
+}
+
+.FooterOuter .FooterLinks ul li a:hover i {
+  color: #fff !important;
+}
+
+.FooterOuter .FooterLinks ul li.current-page a {
+  color: #e02919 !important;
+}
+
+/* End Footer CSS */
+
+/* Start Back to Top Button */
+
+#button {
+  background-color: #e02b20;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  border-radius: 50px !important;
+  font-size: 14px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+  transition: 0.5s !important;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #e02b204a;
+}
+
+#button:active {
+  background-color: #555;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#button:hover::after {
+  font-size: 20px !important;
+  transform: translate(0px, -5px) !important;
+}
+
+/* End Back To Top CSS */
+
+/* Start Coaches CSS */
+
+div#BannerMain {
+  background-color: #000;
+  height: 600px !important;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+div#BannerMain h1 {
+  text-align: center;
+  margin: 50px 0 0 0 !important;
+  font-size: 100px !important;
+  line-height: 100px !important;
+}
+
+div#BannerMain.Our-Coaches {
+  background-image: url(../images/Coaches.jpg);
+}
+
+section#CoachesSec {
+  padding: 100px 0 !important;
+  background: #0a0a09 !important;
+}
+
+.HoverImg {
+    float: right;
+}
+
+section#CoachesSec  .TitleDiv {
+  position: relative !important;
+}
+
+section#CoachesSec .TitleDiv .BeforeNo {
+  color: #e02b20 !important;
+  font-family: 'Jost' !important;
+  font-size: 150px !important;
+  font-weight: 500 !important;
+  line-height: 120px !important;
+  opacity: .3;
+}
+
+section#CoachesSec .TitleDiv h2 {
+  position: absolute !important;
+  bottom: 0 !important;
+  margin: 0 !important;
+  left: 30px !important;
+}
+
+section#CoachesSec .ContentMain {
+  padding-left: 30px !important;
+}
+
+section#CoachesSec .ContentMain ul {
+  padding: 0;
+  margin: 20px 0 0px 0 !important;
+}
+
+section#CoachesSec .ContentMain ul span.ColorRed {
+  color: #e02b20 !important;
+  font-weight: 300 !important;
+}
+
+section#CoachesSec .ContentMain ul li {
+  list-style: none !important;
+  font-family: 'Jost' !important;
+  color: #fff;
+  line-height: 30px !important;
+  font-size: 18px !important;
+  font-weight: 300;
+}
+
+section#CoachesSec .ContentMain  p {
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  margin-bottom: 5px;
+}
+
+section#CoachesSec .ContentMain p.SmallHead {
+  text-transform: uppercase !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  margin-top: 10px !important;
+}
+
+section#CoachesSec .RightBefore::after {
+  position: absolute;
+  top: 10px;
+  right: -160px;
+}
+
+section#CoachesSec .Row01::after {
+  content: url(../images/StuartBefore.png) !important;
+}
+
+section#CoachesSec {
+  z-index: 1;
+  position: relative;
+  overflow: hidden !important;
+}
+
+.HoverImg::before {
+  content: "";
+  background-color: #e02b20 !important;
+  position: absolute;
+  z-index: -1;
+  top: 0px !important;
+  left: 70px !important;
+  right: 15px !important;
+  bottom: 20px !important;
+  transition: .5s ease-in-out !important;
+}
+
+section#CoachesSec .RightBefore .HoverImg:hover::before {
+  top: 20px !important;
+  left: 50px !important;
+  right: 50px !important;
+  bottom: -20px !important;
+}
+
+section#CoachesSec .PaddingTop {
+  padding-top: 100px !important;
+}
+
+.LeftBefore .HoverImg:hover::before {
+  bottom: -20px !important;
+  right: -10px !important;
+  left: 90px !important;
+  top: 20px !important;
+}
+
+section#CoachesSec .LeftBefore::before {
+  position: absolute;
+  left: -160px !important;
+  bottom: 90px !important;
+}
+
+section#CoachesSec .Row02::before {
+  content: url(../images/MitchBefore.png);
+}
+
+section#CoachesSec .row {
+  position: relative !important;
+}
+
+section#CoachesSec .Row03 .ContentMain p {
+  width: 85% !important;
+  margin-top: 30px !important;
+}
+
+section#CoachesSec .Row03::after {
+  content: url(../images/JacobBefore.png);
+  top: inherit !important;
+}
+
+section#CoachesSec .Row04 .ContentMain p {
+  margin-top: 30px !important;
+}
+
+section#CoachesSec .Row04::before {
+  content: url(../images/AlfieBefore.png) !important;
+}
+
+section#TestimonialSec.InnnerTesti {
+  padding-top: 0 !important;
+}
+
+section#TestimonialSec.InnnerTesti ul.nav.nav-tabs {
+  margin-top: 0 !important;
+}
+
+/* End Coaches CSS */
+
+/* Start Contact Sec CSS */
+
+section#ContactSec {
+  background-color: #0a0a09;
+  padding: 100px 0 !important;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+section#ContactSec .Inline input,
+section#ContactSec textarea,
+section#ContactSec input[type=email] {
+  width: 100% !important;
+  margin: 15px 0 !important;
+  background: #ffffff00 !important;
+  border: 1px solid #0000007d !important;
+  font-family: 'Jost' !important;
+  color: #000 !important;
+  font-size: 18px !important;
+  padding: 20px 10px !important;
+  border-radius: 12px !important;
+  outline: 0 !important;
+  transition: .5s ease !important;
+}
+
+section#ContactSec  .ContactForm {
+  background: #fff !important;
+  padding: 40px 50px !important;
+  border-radius: 20px !important;
+}
+
+section#ContactSec .Inline input::placeholder,
+section#ContactSec textarea::placeholder,
+section#ContactSec input[type=email]::placeholder {
+  text-transform: uppercase !important;
+  font-weight: 500 !important;
+  transition: .5s ease-in-out !important;
+}
+
+section#ContactSec .Inline {
+  display: flex !important;
+  gap: 20px !important;
+}
+
+section#ContactSec textarea {
+  height: 200px !important;
+}
+
+section#ContactSec  input[type="submit"] {
+  background: #e02b20 !important;
+  text-transform: uppercase !important;
+  font-weight: 500 !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  padding: 20px 40px !important;
+  border: 0 !important;
+  margin: 10px auto 0 auto !important;
+  display: block;
+  font-family: 'Jost' !important;
+  transition: .5s ease !important;
+}
+
+section#ContactSec input[type="submit"]:hover {
+  background: #0a0a09 !important;
+  box-shadow: 0 0 12px #00000061 !important;
+}
+
+section#ContactSec .HeaderMain {
+  margin-bottom: 30px !important;
+}
+
+section#ContactSec  .InnerContact {
+  width: 60% !important;
+  margin: 0 auto !important;
+}
+
+section#ContactSec.InnerContactSec {
+  background-image: url(../images/ContactBanner1.jpg) !important;
+}
+
+section#ContactSec .Inline input:focus, section#ContactSec textarea:focus, section#ContactSec input[type=email]:focus {
+  box-shadow: 0 0 8px #000000ad !important;
+  border: 1px solid #e02b20 !important;
+}
+
+section#ContactSec .Inline input:focus::placeholder, section#ContactSec textarea:focus::placeholder, section#ContactSec input[type=email]:focus::placeholder {
+  transform: translate(0px , -20px) !important;
+  font-size: 12px !important; 
+}
+
+/* End Contact Sec CSS */
+
+/* Start Holiday Courses Sec CSS */
+
+div#BannerMain.Holiday-Courses {
+  background-image: url(../images/Holiday-Courses-Banner.jpg);
+}
+
+.Holiday-Courses-Page {
+  background-image: url(../images/BlackTriangleBg.jpg);
+  background-size: cover;
+  background-color: #0a0a09;
+}
+
+section#Holiday-Courses-Sec .ContentMain p {
+  margin-top: 30px !important;
+  width: 80% !important;
+  font-weight: 300 !important;
+}
+
+section#Holiday-Courses-Sec {
+  padding: 100px 0 !important;
+  z-index: 9 !important;
+  position: relative;
+}
+
+.GalleryImages {
+  background-color: #0a0a0a !important;
+}
+
+section#Holiday-Camps-Sec .Timing, section#Holiday-Camps-Sec .Cost {
+  font-weight: 400 !important;
+  text-transform: uppercase;
+  font-family: 'Jost' !important;
+  font-size: 20px !important;
+  padding: 4px 10px !important;
+  margin: 3px 0 0px 0 !important;
+  animation-delay: 1s;
+  width: fit-content !important;
+  transition: 3s ease-in-out !important;
+}
+
+section#Holiday-Camps-Sec .Timing {
+  background: #e02b20 !important;
+  color: #fff !important;
+}
+
+section#Holiday-Camps-Sec .Cost {
+  background: #fff !important;
+  color: #000 !important;
+  font-weight: 600 !important;
+  width: fit-content;
+}
+
+section#Holiday-Camps-Sec .Holiday-Camps h2 {
+  margin-bottom: 15px !important;
+}
+
+section#Holiday-Camps-Sec {
+  padding-bottom: 80px !important;
+}
+
+.GalleryImages  .ImagesMain img {
+  width: 100% !important;
+  transition: .5s ease-in-out !important;
+}
+
+.GalleryImages .col-md-3 {
+  padding: 0px 3px !important;
+}
+
+.GalleryImages .ImagesMain:hover img {
+  /* transform: scale(1.05) !important; */
+}
+
+.GalleryImages .ImagesMain {
+  overflow: hidden !important;
+}
+
+/* End Holiday Courses Sec CSS */
+
+/* Start Packages CSS */
+
+div#BannerMain.Training-Packages {
+  background-image: url(../images/PackagesBanner.jpg);
+}
+
+section#PackagesSec {
+  background-color: #0a0a09;
+  padding: 100px 0 !important;
+}
+
+section#PackagesSec .PrincingHeader p {
+  font-size: 30px !important;
+}
+
+section#PackagesSec .PrincingDiv {
+  background-color: #fff !important;
+  position: relative !important;
+  padding: 120px 30px 50px 30px !important;
+  text-align: center !important;
+  transition: .5s ease-in-out !important;
+}
+
+section#PackagesSec .row .col-md-4 {
+  padding: 0 25px !important;
+}
+
+section#PackagesSec .PrincingDiv .Title {
+  background: #e02b20 !important;
+  text-align: center;
+  padding: 5px 0px 8px 0 !important;
+  position: absolute !important;
+  left: -15px !important;
+  right: -15px !important;
+  top: 30px !important;
+  transition: .5s ease-in-out !important;
+}
+
+section#PackagesSec .PrincingDiv .Title h2 {
+  font-size: 55px !important;
+  line-height: 55px !important;
+}
+
+section#PackagesSec .PrincingDiv .Pricing-Txt .Price {
+  color: #000000 !important;
+  font-size: 65px !important;
+  transition: .5s ease-in-out !important;
+}
+
+section#PackagesSec .PrincingDiv .Pricing-Txt .SubTxt {
+  color: #e02b20 !important;
+  font-size: 22px !important;
+  text-transform: uppercase !important;
+  font-weight: 500 !important;
+}
+
+section#PackagesSec .DescriptionTxt p {
+  color: #000 !important;
+  margin: 0 !important;
+}
+
+section#PackagesSec .PricingBtn {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+section#PackagesSec .DescriptionTxt {
+  height: 180px !important;
+}
+
+section#PackagesSec .PricingBtn .BtnMain {
+  background: #000 !important;
+  font-weight: 500 !important;
+}
+
+section#PackagesSec .PricingBtn .BtnMain:hover {
+  background: #e02b20 !important;
+  color: #fff !important;
+}
+
+section#PackagesSec .PrincingDiv a:hover {
+  color: #000000 !important;
+}
+
+section#ContactSec.PackagesContactSec {
+  background-image: url(../images/ContactBanner02.jpg);
+}
+
+div#BannerMain.Contact-Us {
+  background-image: url(../images/ContactBanner.jpg);
+}
+
+/* Start Packages CSS */
+
+/* Start Contact CSS */
+
+section#ContactSec.Contact-Page {
+  background-image: url(../images/BlackTriangleBg.jpg);
+  background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+section#ContactSec  .LeftHeader {
+  text-align: left !important;
+}
+
+section#ContactSec .LeftHeader p {
+  margin: 0 !important;
+  width: 80% !important;
+  margin-top: 15px !important;
+}
+
+section#ContactSec .ContactForm.Contact-Page {
+  width: 90% !important;
+  float: right !important;
+}
+
+section#ContactSec .IconsDiv {
+  display: flex !important;
+  gap: 15px !important;
+  align-items: center !important;
+}
+
+section#ContactSec .IconsDiv .IconMain {
+  background: #e02b20 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px !important;
+  width: 70px !important;
+  border-radius: 50%;
+  border: 3px solid #fff !important;
+}
+
+section#ContactSec .IconsDiv .IconMain i {
+  color: #fff !important;
+  font-size: 30px !important;
+}
+
+section#ContactSec .MessangerImg img {
+  width: 30px !important;
+}
+
+section#ContactSec .Contact-Details {
+  display: flex;
+  flex-direction: column;
+  gap: 18px !important;
+}
+
+section#ContactSec .IconsDiv .IconDetails .Title {
+  color: #e02b20 !important;
+  font-size: 18px !important;
+  font-family: 'Jost';
+  text-transform: uppercase !important;
+  margin: 0 !important;
+}
+
+section#ContactSec .IconsDiv .IconDetails  a {
+  color: #fff !important;
+  font-family: 'Jost' !important;
+  font-size: 22px !important;
+}
+
+section#ContactSec .IconsDiv .IconDetails a:hover {
+  color: #d3d3d3d9 !important;
+}
+
+section#ContactSec.Contact-Page .row {
+  align-items: center !important;
+}
+
+.Map-Location {
+  filter: saturate(0.6);
+}
+
+/* End Contact CSS */
+
+/* Start FAQ CSS */
+
+div#BannerMain.FAQ-Bg {
+  background-image: url(../images/faq-banner.jpg) !important;
+}
+
+section#Faq-Sec {
+  background-image: url(../images/BlackTriangleBg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0 !important;
+}
+
+section#Faq-Sec .faq-header p {
+  font-size: 22px !important;
+  width: 70% !important;
+}
+
+section#Faq-Sec .FaqDiv {
+  background: #fff !important;
+  position: relative;
+  margin-top: 100px !important;
+  text-align: center !important;
+  padding: 110px 30px 30px 30px !important;
+  height: 420px !important;
+  transition: .5s ease-in-out !important;
+}
+
+section#Faq-Sec .FaqDiv .ImgDiv img {
+  width: 170px !important;
+  height: 170px !important;
+  background: #e02b20 !important;
+  object-fit: contain !important;
+  padding: 45px 0px !important;
+  border-radius: 50% !important;
+  border: 10px solid #000 !important;
+}
+
+section#Faq-Sec .FaqDiv .ImgDiv {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: -80px !important;
+}
+
+section#Faq-Sec .FaqDiv .Title h2 {
+  color: #000 !important;
+  font-size: 24px !important;
+  line-height: 24px !important;
+}
+
+section#Faq-Sec .FaqDiv .Title .RedHead {
+  color: #e02b20 !important;
+}
+
+section#Faq-Sec .row.faq-row .col-md-4 {
+  padding: 0 20px !important;
+}
+
+section#Faq-Sec .FaqDiv .Description p {
+  color: #000 !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+}
+
+section#Faq-Sec .Description {
+  margin-top: 20px !important;
+}
+
+section#Faq-Sec .Description a:hover {
+  color: #000 !important;
+}
+
+section#Faq-Sec .FaqDiv:hover {
+  transform: scale(1.02);
+}
+
+/* End FAQ css */
+
+/* Start Session & Location CSS */
+
+div#BannerMain.session-bg {
+  background-image: url(../images/SessionBanner.jpg);
+}
+
+section#Session-sec {
+  background-image: url(../images/BlackTriangleBg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0 !important;
+}
+
+section#Session-sec .HeaderMain {
+  text-align: left !important;
+  margin-bottom: 25px !important;
+}
+
+section#Session-sec .SessionCol .Title h2 {
+  font-size: 20px !important;
+  font-family: 'Jost' !important;
+  text-transform: uppercase !important;
+  font-weight: 500 !important;
+  color: #000 !important;
+  background: #fff;
+  line-height: 20px !important;
+  padding: 10px 60px !important;
+  text-align: center !important;
+  width: fit-content;
+}
+
+section#Session-sec .SessionCol .Title  h2.RedTitle {
+  background: #e02b20 !important;
+  color: #fff !important;
+}
+
+section#Session-sec .col-md-6 {
+  padding: 0 0px !important;
+}
+
+section#Session-sec .col-md-6.SessionCol {
+  padding: 0 10px !important;
+}
+
+section#Session-sec .LocationCol .Map-Div {
+  height: 380px !important;
+  width: 650px !important;
+}
+
+section#Session-sec .SessionDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 50px !important;
+}
+
+section#Session-sec .Title {
+  margin-bottom: 20px !important;
+}
+
+section#Session-sec  .description p {
+  font-size: 20px !important;
+  font-weight: 300 !important;
+  margin: 0 !important;
+}
+
+section#Session-sec .Namecol {
+  position: relative;
+  height: 100% !important;
+  margin-right: 10px !important;
+}
+
+section#Session-sec .ButtonDiv {
+  height: 40% !important;
+  display: flex;
+  align-items: end !important;
+}
+
+section#Session-sec .col-md-6.SessionCol .SessionCol {
+  width: 65% !important;
+}
+
+section#Session-sec .LocationCol {
+  display: flex;
+  justify-content: end;
+  align-items: center !important;
+}
+
+section#ContactSec.Session-page {
+  background-image: url(../images/contact-banner03.jpg);
+}
+
+/* End Session & Location CSS */
+
+/* Start Loader CSS */
+
+#loading {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 1;
+  background-image: url(../images/SliderImg2.png);
+  z-index: 9999;
+  transition: 1s ease-in-out !important;
+  background-position: bottom !important;
+  background-size: cover;
+  transition: 5s ease !important;
+}
+
+#loading img#loading-image {
+  width: 20% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+}
+
+/* End Loader CSS */
+
+/* Start Sign Up CSS */
+
+div#BannerMain.Sign-up-bg {
+  background-image: url(../images/SignUpBanner.jpg);
+}
+
+section#Sign-Sec.Sign-up-page {
+  background-image: url(../images/BlackTriangleBg.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0 !important;
+}
+
+section#Sign-Sec .Form-Div {
+  background: #fff !important;
+  width: 55% !important;
+  margin: 0 auto !important;
+  padding: 40px 50px !important;
+  border-radius: 15px !important;
+}
+
+section#Sign-Sec  input {
+  width: 100% !important;
+}
+
+section#Sign-Sec  .Inline {
+  display: flex !important;
+  gap: 20px !important;
+}
+
+section#Sign-Sec input[type="email"],
+section#Sign-Sec input[type="text"],
+section#Sign-Sec input[type="text"],
+section#Sign-Sec input[type="password"] {
+  background: #ffffff00 !important;
+  border: 1px solid #00000054 !important;
+  font-family: 'Jost' !important;
+  font-size: 18px !important;
+  padding: 15px 20px !important;
+  margin-bottom: 30px !important;
+  transition: .5s ease-in-out !important;
+}
+
+section#Sign-Sec input[type="email"]:focus,
+section#Sign-Sec input[type="text"]:focus,
+section#Sign-Sec input[type="text"]:focus,
+section#Sign-Sec input[type="password"]:focus {
+  border: 1px solid #e02b20 !important;
+  outline: 0 !important;
+  box-shadow: 0 0 10px #00000033 !important;
+}
+
+section#Sign-Sec input[type="email"]::placeholder,
+section#Sign-Sec input[type="text"]::placeholder,
+section#Sign-Sec input[type="text"]::placeholder,
+section#Sign-Sec input[type="password"]::placeholder {
+  text-transform: uppercase !important;
+  transition: .5s ease-in-out !important;
+}
+
+section#Sign-Sec .OrTxt {
+  border-top: 1px solid #00000069 !important;
+  margin: 50px 0 50px 0 !important;
+  position: relative;
+}
+
+section#Sign-Sec .OrTxt p {
+  color: #0000009e !important;
+  position: absolute;
+  left: 0 !important;
+  right: 0 !important;
+  text-align: center;
+  top: -24px !important;
+  font-size: 30px !important;
+  background: #fff !important;
+  width: fit-content;
+  margin: 0 auto !important;
+  padding: 0 10px !important;
+}
+
+section#Sign-Sec .GoogleBtn a {
+  display: block !important;
+  text-align: center;
+  border: 1px solid #ababab !important;
+  padding: 15px 0 !important;
+  font-family: 'Jost' !important;
+  color: #4e4e4eb8 !important;
+  text-transform: uppercase !important;
+  font-weight: 500 !important;
+  transition: .5s ease-in-out !important;
+}
+
+section#Sign-Sec .GoogleBtn a img {
+  margin-right: 10px !important;
+}
+
+section#Sign-Sec .GoogleBtn a:hover {
+  background: #e02b20 !important;
+  color: #fff !important;
+}
+
+section#Sign-Sec .GoogleBtn a:hover img {
+  filter: drop-shadow(0px 0px 1px black);
+  transition: .5s ease-in-out !important;
+}
+
+section#Sign-Sec .No-Account-Div p {
+  text-align: center !important;
+  color: #7f7f7f !important;
+  font-size: 20px !important;
+  margin: 0 !important;
+}
+
+section#Sign-Sec .No-Account-Div {
+  margin-top: 60px !important;
+}
+
+section#Sign-Sec input[type="email"]:focus::placeholder,
+section#Sign-Sec input[type="text"]:focus::placeholder,
+section#Sign-Sec input[type="text"]:focus::placeholder,
+section#Sign-Sec input[type="password"]:focus::placeholder {
+  font-size: 12px !important;
+  transform: translate(0,-18px) !important;
+}
+
+section#Sign-Sec input[type="submit"] {
+  font-family: 'Jost' !important;
+  font-size: 20px !important;
+  color: #fff !important;
+  background: #e02b20 !important;
+  border: 0 !important;
+  padding: 15px 0 !important;
+  transition: .5s ease-in-out !important;
+  text-transform: uppercase !important;
+}
+
+section#Sign-Sec input[type="submit"]:hover {
+  background: #000 !important;
+  box-shadow: 0 0 7px #0000006b !important;
+}
+
+section#Sign-Sec .No-Account-Div a:hover {
+  color: #000 !important;
+}
+
+/* Start Sign Up CSS */
+
+/*Start Thank You*/
+
+section.thankyou-page {
+  padding: 300px 0 159px 0 !important;
+  text-align: center !important;
+  background-image: url(../images/SliderImg2.png) !important;
+  background-position: bottom;
+  background-size: cover;
+  position: relative !important;
+}
+
+section.thankyou-page::before {
+  position: absolute;
+  content: "";
+  background-color: #0000006b !important;
+  inset: 0;
+}
+
+section.thankyou-page p {
+  text-transform: capitalize !important;
+}
+
+section.thankyou-page h2 {text-shadow: 0 0 5px #0000008c !important;}
+
+section.thankyou-page .BtnMain {
+  margin: 30px auto 0 auto !important;
+}
+
+/*End Thank You*/
+
+/* Start Responsiveness */
+
+@media only screen and (max-width:1650px) {
+
+  section#GallerSec img {
+    width: 100% !important;
+  }
+
+  .container {
+    padding: 0 30px !important;
+  }
+
+  header ul.main-menu {
+    gap: 10px !important;
+  }
+
+  .MouseScroll {
+    left: 50px !important;
+  }
+
+  section#GallerSec .HeaderLeft {
+    left: 0 !important;
+  }
+
+  section#HomeSlider .ContentMain {
+    padding-top: 150px !important;
+  } 
+
+  section#OurCoursesSec .CoursesCol .ContentMain h2 {
+    font-size: 38px !important;
+    line-height: 30px !important;
+  }
+
+}
+
+@media only screen and (max-width:1440px) {
+
+  header .LogoCol img {
+    width: 120px !important;
+  }
+
+  header .RightCol {
+    gap: 15px !important;
+    width: auto !important;
+  }
+
+  header .LogoCol {
+    width: auto !important;
+  }
+
+  header .MenuCol {
+    width: 64% !important;
+  }
+
+  header ul.main-menu li {
+    font-size: 16px !important;
+  }
+
+  header .RightCol a.BtnMain {
+    padding: 14px 28px !important;
+    font-size: 16px !important;
+  }
+
+  section#HomeSlider h1 {
+    font-size: 90px !important;
+    line-height: 90px !important;
+  }
+
+  a.BtnMain {
+    font-size: 16px !important;
+    padding: 17px 30px !important;
+  }
+
+  section#AboutUsSec {
+    padding-bottom: 70px !important;
+  }
+
+  .h2, h2 {
+    font-size: 60px !important;
+    line-height: 60px !important;
+  }
+
+  section#OurCoursesSec .CoursesCol .ContentMain h2 {
+    font-size: 27px !important;
+    line-height: 27px !important;
+  }
+
+  .HeaderMain p {
+    width: 70% !important;
+  }
+
+  section#OurPackageSec {
+    padding: 90px 0 !important;
+  }
+
+  section#CounterSec .CounterRow .CouterDiv .counter {
+    font-size: 80px !important;
+    line-height: 80px !important;
+  }
+
+  section#CounterSec .CounterRow .CouterDiv .CounterTitle {
+    font-size: 25px !important;
+    line-height: 25px !important;
+  }
+
+  section#CounterSec .CounterRow .CouterDiv {
+    height: 230px !important;
+  }
+
+  section#TestimonialSec {
+    padding-top: 120px !important;
+  }
+
+  section#TestimonialSec ul.nav.nav-tabs {
+    width: 90% !important;
+  }
+
+  section#TestimonialSec .tab-content {
+    width: 80% !important;
+  }
+
+  section#GallerSec .HeaderLeft h2 {
+    font-size: 50px !important;
+    line-height: 50px !important;
+  }
+
+  section#GallerSec .row .col-md-4,
+  section#GallerSec .row .col-md-3,
+  section#GallerSec .row .col-md-5 {
+    padding: 0 5px !important;
+  }
+
+  section#GallerSec .ImgRight {
+    gap: 10px !important;
+  }
+
+  section#GallerSec .Imgleft {
+    gap: 10px !important;
+  }
+
+  section#GallerSec .InnerRow {
+    gap: 10px !important;
+  }
+
+  .FooterOuter .TitleMain h2 {
+    font-size: 30px !important;
+    line-height: 30px !important;
+  }
+
+  .FooterOuter .LogoDiv .ContentMain p {
+    width: 100% !important;
+  }
+
+  .FooterOuter .SocialIcons ul li {
+    height: 55px !important;
+    width: 55px !important;
+  }
+
+  .FooterOuter .FooterLinks ul li a {
+    font-size: 17px !important;
+  }
+
+  .FooterOuter .CopyrightRow p {
+    font-size: 16px !important;
+  }
+
+  .FooterOuter {
+    padding-top: 80px !important;
+  }
+
+  .FooterOuter .FooterLinks ul li i {
+    padding: 10px 10px !important;
+  }
+
+  section#AboutUsSec .CircleButton {
+    width: 150px !important;
+  }
+
+  section#AboutUsSec .arrow-div::before {
+    height: 90px !important;
+    width: 90px !important;
+  }
+
+  section#AboutUsSec .arrow-div img {
+    width: 40px !important;
+  }
+
+  section#HomeSlider .ContentMain {
+    padding-top: 80px !important;
+  }
+
+  section#HomeSlider p {
+    margin-bottom: 20px !important;
+  }
+
+}
+  
